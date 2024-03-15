@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #DDDDBB;
+}
+.row{
+    display:flex;
+}
+
+button{
+    all:unset;
+    background-color: #750E21;
+    margin:10px;
+    height:90px;
+    width:90px;
+    border-radius:6px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size:50px;
+    color:#DDDDBB;
+}
+.outline{
+    background-color: #913535;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    font-family: "Shadows Into Light", cursive;
+    color:black;
+    font-size:50px;
+}
+.btn{
+    all: unset;
+    background-color:#588C73 ;
+    font-family: "Shadows Into Light", cursive;
+    font-size:30px;
+    margin:10px;
+    padding: 0 30px;
+    border-radius:10px;
+    cursor: pointer;
+    /* font-weight: 600; */
+}
+
+.btn:hover{
+    background-color:#1B1717 ;
+    color:#DDDDBB;
+    /* color:white; */
+}
+h2{
+    font-family: "Truculenta", sans-serif;
+    font-size:30px;
+}
