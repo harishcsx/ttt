@@ -54,7 +54,7 @@ const reset = () => {
         button.innerHTML = null;
         h2.innerText = null;
     });
-    alert('Game reset!');
+    // alert('Game reset!');
 };
 
 let clearBtn = document.querySelector(".btn");
